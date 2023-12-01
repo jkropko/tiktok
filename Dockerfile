@@ -16,7 +16,7 @@ RUN apt-get install npm -y
 
 RUN npm install -g dbdocs
 
-WORKDIR /contrans2023
+WORKDIR /tiktok
 
 EXPOSE 8888
 EXPOSE 8050

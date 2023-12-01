@@ -1,13 +1,13 @@
 services:
   jupyterlab: 
-    image: jkropko/contrans2023
+    image: jkropko/tiktok
     env_file: 
       - .env
     ports:
-      - "8890:8888"
+      - "8888:8888"
       - "8050:8050"
     volumes:
-      - ./:/contrans2023
+      - ./:/tiktok
       - ./settings.txt:/root/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings
     networks:
       - dbnetwork
@@ -23,20 +23,8 @@ services:
     networks:
       - dbnetwork
   
-  
-  mongo:
-    image: mongo:latest
-    env_file:
-      - .env
-    volumes: 
-      - mongodata:/data/db
-    ports:
-      - "27017:27017"
-    networks:
-      - dbnetwork
 volumes:
   postgresdata:
-  mongodata:
 
 networks:
   dbnetwork:
