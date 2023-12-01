@@ -4,8 +4,12 @@
     // Notebook settings.
     // **************************************
 
+    // Automatically Start Preferred Kernel
+    // Whether to automatically start the preferred kernel.
+    "autoStartDefaultKernel": true,
+
     // Code Cell Configuration
-    // The configuration for all code cells.
+    // The configuration for all code cells; it will override the CodeMirror default configuration.
     "codeCellConfig": {
         "autoClosingBrackets": true,
         "cursorBlinkRate": 530,
@@ -26,7 +30,7 @@
     },
 
     // Markdown Cell Configuration
-    // The configuration for all markdown cells.
+    // The configuration for all markdown cells; it will override the CodeMirror default configuration.
     "markdownCellConfig": {
         "autoClosingBrackets": true,
         "cursorBlinkRate": 530,
@@ -47,7 +51,7 @@
     },
 
     // Raw Cell Configuration
-    // The configuration for all raw cells.
+    // The configuration for all raw cells; it will override the CodeMirror default configuration.
     "rawCellConfig": {
         "autoClosingBrackets": true,
         "cursorBlinkRate": 530,
