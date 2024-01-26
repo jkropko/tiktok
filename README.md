@@ -28,6 +28,7 @@ You will see output start to display in your terminal window. Within the output,
 Or copy and paste one of these URLs:
 pipeline-github-jupyterlab-1  |         http://ea59a8fbdbac:8888/lab?token=205a9abc0c59b11e2ba7d21c35703dd1013b5f42617f1646
 pipeline-github-jupyterlab-1  |         http://127.0.0.1:8888/lab?token=205a9abc0c59b11e2ba7d21c35703dd1013b5f42617f1646
-``	
+
+```	
 
 Copy the URL that begins http://127.0.0.1:8888/ and paste it into a web browser to launch JupyterLab with all associated packages and databases connected.
